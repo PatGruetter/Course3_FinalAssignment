@@ -1,0 +1,73 @@
+Tidy Data:
+
+The following columns are present:
+1                      subject: 30 subjects numerated from 1 to 30
+2                     activity: 6 activities: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
+
+		    variables   min (in Hz) max (in Hz)
+3            fBodyAcc-mean()-X -0.99524993  0.537012022
+4            fBodyAcc-mean()-Y -0.98903430  0.524187687
+5            fBodyAcc-mean()-Z -0.98947393  0.280735952
+6             fBodyAcc-std()-X -0.99660457  0.658506543
+7             fBodyAcc-std()-Y -0.99068040  0.560191344
+8             fBodyAcc-std()-Z -0.98722480  0.687124164
+9        fBodyAccJerk-mean()-X -0.99463080  0.474317256
+10       fBodyAccJerk-mean()-Y -0.98939882  0.276716853
+11       fBodyAccJerk-mean()-Z -0.99201845  0.157775692
+12        fBodyAccJerk-std()-X -0.99507376  0.476803887
+13        fBodyAccJerk-std()-Y -0.99046808  0.349771285
+14        fBodyAccJerk-std()-Z -0.99310776 -0.006236475
+15          fBodyAccMag-mean() -0.98680065  0.586637551
+16           fBodyAccMag-std() -0.98764848  0.178684581
+17  fBodyBodyAccJerkMag-mean() -0.99399828  0.538404846
+18   fBodyBodyAccJerkMag-std() -0.99436667  0.316346415
+19 fBodyBodyGyroJerkMag-mean() -0.99761739  0.146618569
+20  fBodyBodyGyroJerkMag-std() -0.99758523  0.287834616
+21     fBodyBodyGyroMag-mean() -0.98653524  0.203979765
+22      fBodyBodyGyroMag-std() -0.98146884  0.236659662
+23          fBodyGyro-mean()-X -0.99312261  0.474962448
+24          fBodyGyro-mean()-Y -0.99402549  0.328817010
+25          fBodyGyro-mean()-Z -0.98595779  0.492414380
+26           fBodyGyro-std()-X -0.99465219  0.196613287
+27           fBodyGyro-std()-Y -0.99435309  0.646233637
+28           fBodyGyro-std()-Z -0.98672527  0.522454216
+29           tBodyAcc-mean()-X  0.22159824  0.301461020
+30           tBodyAcc-mean()-Y -0.04051395 -0.001308288
+31           tBodyAcc-mean()-Z -0.15251390 -0.075378469
+32            tBodyAcc-std()-X -0.99606864  0.626917071
+33            tBodyAcc-std()-Y -0.99024095  0.616937015
+34            tBodyAcc-std()-Z -0.98765866  0.609017879
+35       tBodyAccJerk-mean()-X  0.04268810  0.130193044
+36       tBodyAccJerk-mean()-Y -0.03868721  0.056818586
+37       tBodyAccJerk-mean()-Z -0.06745839  0.038053359
+38        tBodyAccJerk-std()-X -0.99460454  0.544273037
+39        tBodyAccJerk-std()-Y -0.98951357  0.355306717
+40        tBodyAccJerk-std()-Z -0.99328831  0.031015708
+41      tBodyAccJerkMag-mean() -0.99281472  0.434490401
+42       tBodyAccJerkMag-std() -0.99464692  0.450612066
+43          tBodyAccMag-mean() -0.98649320  0.644604325
+44           tBodyAccMag-std() -0.98646454  0.428405923
+45          tBodyGyro-mean()-X -0.20577543  0.192704476
+46          tBodyGyro-mean()-Y -0.20420536  0.027470756
+47          tBodyGyro-mean()-Z -0.07245460  0.179102058
+48           tBodyGyro-std()-X -0.99427659  0.267657219
+49           tBodyGyro-std()-Y -0.99421047  0.476518714
+50           tBodyGyro-std()-Z -0.98553836  0.564875818
+51      tBodyGyroJerk-mean()-X -0.15721254 -0.022091627
+52      tBodyGyroJerk-mean()-Y -0.07680899 -0.013202277
+53      tBodyGyroJerk-mean()-Z -0.09249985 -0.006940664
+54       tBodyGyroJerk-std()-X -0.99654254  0.179148650
+55       tBodyGyroJerk-std()-Y -0.99708158  0.295945926
+56       tBodyGyroJerk-std()-Z -0.99538079  0.193206499
+57     tBodyGyroJerkMag-mean() -0.99732253  0.087581662
+58      tBodyGyroJerkMag-std() -0.99766607  0.250173204
+59         tBodyGyroMag-mean() -0.98074085  0.418004609
+60          tBodyGyroMag-std() -0.98137268  0.299975980
+61        tGravityAcc-mean()-X -0.68004316  0.974508732
+62        tGravityAcc-mean()-Y -0.47989484  0.956593814
+63        tGravityAcc-mean()-Z -0.49508872  0.957873042
+64         tGravityAcc-std()-X -0.99676423 -0.829554948
+65         tGravityAcc-std()-Y -0.99424765 -0.643578361
+66         tGravityAcc-std()-Z -0.99095725 -0.610161166
+67       tGravityAccMag-mean() -0.98649320  0.644604325
+68        tGravityAccMag-std() -0.98646454  0.428405923
